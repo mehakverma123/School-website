@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login here</title>
+	
+	<style>
+	body
+	{
+		margin:0;
+		padding:0;
+		font-family: sans-serif;
+		background-image: url(universe.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		}
+		.loginbox
+		{
+			width: 320px;
+			height: 450px;
+			background-color: #000;
+			color: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			padding: 60px 20px;
+			border-radius: 20px;
+		}
+		.avatar
+		{
+			height: 110px;
+			width: 110px;
+			border-radius: 50%;
+			position: absolute;
+			top: -50px;
+			left: calc(50% -50px);
+		}
+
+		h1
+		{
+			margin: 0;
+			padding: 0 0 20px;
+			text-align: center;
+			font-size: 22px;
+		}
+		.loginbox p
+		{
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+
+		}
+		.loginbox input
+		{
+			width: 100%;
+			margin-bottom: 30px;
+
+		}
+		.loginbox input[type="text"],
+		input[type="password"]
+		{
+			border: none;
+			height: 50px;
+			background: transparent;
+			border-bottom: 1px solid #fff;
+			font-size: 16px;
+			color: white;
+		}
+
+		.loginbox input[type="submit"]
+
+		{
+			border: none;
+			outline: none;
+			height: 50px;
+			background: #fb2525;
+			font-size: 20px;
+			color: #fff;
+			border-radius: 20px;
+
+		}
+		.loginbox input[type="submit"]:hover
+		{
+			cursor: pointer;
+			background-color: #ffc107;
+			color: #000;
+
+		}
+
+		.loginbox a
+
+		{
+			line-height: 20px;
+			text-decoration: none;
+			color: darkgray;
+			font-size: 12pxl
+
+		}
+
+		.loginbox a:hover
+
+		{
+			color: #ffc107;
+		}
+	</style>
+</head>
+<body>
+	<div class="loginbox">
+	<img src="avatar.png" alt="avatar"
+	class="avatar">
+	<h1>Login here</h1>
+	<p>Enter Username</p>
+	<input type="text" placeholder="Enter Username"> <br>
+	<p>Enter Password</p>
+	<input type="Password" placeholder="Enter Password"> <br>
+	<input type="submit" value="login"> <br>
+	<a href="#">Forget Password</a> <br>
+	<a href="#">Don't have an Account?</a>
+	<a href = 'website.html'> Back </a>
+</div>
+
+</body>
+</html>
+
+
+

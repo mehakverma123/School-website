@@ -1,0 +1,42 @@
+body  
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background: linear-gradient(#4facfe);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.contact-box
+{
+	display: block;
+	background: white;
+	padding: 30px;
+	margin-top: 15px;
+	border-radius: 15px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	width: 500px;
+}
+h2 
+{
+	color: #003366;
+	margin-bottom: 15px;
+}
+a 
+{
+	display: inline-block;
+	margin: 20px;
+	padding: 10px 20px;
+	background: #003366;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+a:hover 
+{
+	background: #0055aa;
+}

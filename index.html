@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SCHOOL KUTHAR</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/e1f64459c8.js"
+	crossorigin="anonymous"></script>
+</head>
+<body>
+	<!--header-->
+	<header>
+		<nav>
+			<div class="nav-left">
+				<img src="logo.png"alt="Logo" class="logo">
+			</div>
+			<ul class="nav-menu">
+				<li><a href="home.html">Home<i class="fas fa-home"></i></a></li>
+				<li><a href="about school.html">About School <i class="fas fa-lock"></i></a></li>
+				<li class="dropdown">
+				<a href="#">Subject<i class="fas fa-caret-down"></i></a>
+				<ul class="dropdown-menu">
+				<li><a href="arts.html"onclick="loadpage('Arts.html');return false;">Arts</a></li>
+				<li><a href="non-medical.html">Non-medical</a></li>
+				<li><a href="medical.html">Medical</a></li>
+				<li><a href="commerce.html"onclick="loadpage('Commerce.html')">Commerce</a></li>
+			</ul>
+		</li>
+		<li class="dropdown">
+		<a href="#">Committees<i class="fas fa-caret-down"></i></a>
+		<ul class="dropdown-menu">
+			<li><a href="#">School Management Committee</a></li>
+			<li><a href="#">Discipline Commttiee</a></li>
+			<li><a href="#">Sports Commttiee</a></li>
+			<li><a href="#">Cultural Commttiee</a></li>
+			<li><a href="#">Examination Commttiee</a></li>
+			<li class="dropdown">
+				<a href="#">Others<i class="fas fa-caret-right"></i></a>
+				<ul class="dropdown-menu">
+				<li><a href="#">Anti-Ragging</a></li>
+				<li><a href="#">Woman Harassment</a></li>
+			</ul>
+		</li>
+	</ul>
+</li>
+<li><a href="contact.html">Contact<i class="fas fa-envelope"></i></a></li>
+<li><a href="login.html">Login<i class="fas fa-user"></i></a></li>
+</ul>
+</nav>
+</header>
+<main id="content">
+	<!--Main Content-->
+	<div class="container">
+		<!--Left Section-->
+		<div class="left-container">
+			<div class="left-upper">
+				<h3>News & Alerts</h3>
+				<marquee behavior="scroll"direction="up"
+				scrollamount="3"onmouseover="this.stop();"
+				onmouseout="this.start();">
+				<ul class="news-list">
+					<li><a href="#">📢Admission Open for 2026</a></li>
+					<li><a href="#">📌Examination Schedule 2026 </a></li>
+					<li><a href="#">🏖️Summer Vacation</a></li>
+					<li><a href="#">🎓Annual Day 2026</a></li>
+					<li><a href="#">🏆Tournments</a></li>
+				</ul>
+			</marquee>
+		</div>
+		<div class="left-lower">
+			<h3>Upcoming Events</h3>
+			<ul class="events-list">
+				<li>📅<strong>July 20:</strong>Inter-School Sports Competition</li>
+				<li>📅<strong>July 28:</strong>Quiz Competition</li>
+                <li>📅<strong>Aug 15:</strong>Independance Day Celebrate</li>
+                <li>📅<strong>Aug 25:</strong>Parents-Teacher Meeting</li>
+            </ul></div></div>
+            <!--Image Section-->
+            <div class="image-section">
+            	<img src="school.jpg" alt="School Campus">
+            </div>
+            <!--Right Sidebar-->
+            <div class="right">
+            	<ul>
+            		<li><a href="#">About Us</a></li>
+            		<li><a href="#">Principal's Messages</a></li>
+            		<li><a href="#">Classes Offered</a></li>
+            		<li><a href="#">Academics</a></li>
+            		<li><a href="#">Subjects</a></li>
+            		<li><a href="#">Staff</a></li>
+            		<li><a href="#">Fee Structure</a></li>
+            		<li><a href="#">Career Guidance</a></li>
+            		<li><a href="#">Facilities</a></li>
+            		<li><a href="#">School Activites</a></li>
+            		<li><a href="#">Location</a></li>
+            		<li><a href="#">Adimission/Apply Now</a></li>
+            	</ul>
+            </div>
+        </div>
+        <!--Explore Our Facilities & Activites-->
+        <section class="programs">
+        <h2>Explore Our Facilities & Activites</h2>
+        <div class="program-container">
+        <div class="program-card">
+        <img src="academic.jpg"alt="Academics">
+        <h3>Academics</h3>
+        <p>Learn about our curriculum classes and subject.</p>
+        <a href="#"class="btn">Know More</a>
+        </div>
+        <div class="program-card">
+        <img src="admission.jpg"alt="Admission">
+        <h3>Admission</h3>
+        <p>Find Details about the admission process and eligibity.</p>
+        <a href="#"class="btn">Know More</a>
+        </div>
+        <div class="program-card">
+        <img src="facility.jpg"alt="Facilities">
+        <h3>Facilities</h3>
+        <p>Explore Smart class rooms library labs and playground.</p>
+        <a href="#"class="btn">Know More</a>
+        </div>
+        <div class="program-card">
+        <img src="achievement.jpg"alt="Achievement">
+        <h3>Achievements</h3>
+        <p>See our students academic sports and cultural achievements.</p>
+        <a href="#"class="btn">Know More</a>
+        </div>
+        <div class="program-card">
+        <img src="activite.jpg"alt="Activitie">
+        <h3>Activites</h3>
+        <p>Discover Sports annual function trip and eco club activites.</p>
+        <a href="#"class="btn">Know More</a>
+        </div>
+        </div>
+        </section>
+        <!--<div id="overlay"></div>-->
+        <!--Warning Box-->
+        <!--<div id="warning-box"class="warning-container"
+        <div class="warning-content">
+        <h2>⚠️Important School Notice⚠️</h2>
+        <p> Welcome to <strong>Govt Senior Secondary School Kuthar</strong>
+         Stay updated with school notice,events,examination schedules,
+         and admission information through our official website</p>
+         <p>Students and Parents are requested to regularly check the
+         website for important announcements and updates</p> 
+         			<button id="close-warning"class="close-btn">*</button>
+         			</div>-->
+         		</div>
+         	    </main>
+         		<footer>
+         			<p> Govt.Senior.Secondary School Kuthar </p>
+         		</footer>
+         		
+         		</body>
+         		</html>
+
